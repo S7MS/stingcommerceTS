@@ -11,25 +11,35 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:clear": "jest --clearCache"
+    "test:clear": "jest --clearCache",
+    "test:karma": "karma start",
+    "test:karma:single": "karma start --single-run"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "lucide-react": "^0.263.1",
     "next": "14.2.33",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "bootstrap": "^5.3.3",
     "react-bootstrap": "^2.10.6",
-    "lucide-react": "^0.263.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.0.0",
     "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.5.1",
+    "@types/jasmine": "^5.1.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "jasmine-core": "^5.12.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-sourcemap-loader": "^0.4.0",
+    "karma-webpack": "^5.0.1",
+    "ts-loader": "^9.5.4",
     "typescript": "^5"
   }
 }
